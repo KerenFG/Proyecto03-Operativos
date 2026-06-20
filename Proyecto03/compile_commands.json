@@ -1,0 +1,19 @@
+[
+  { "directory": "/project", "command": "gcc -Wall -Wextra -std=c99 -pedantic -D_POSIX_C_SOURCE=200809L -I. server/main.c -c -o server/main.o", "file": "server/main.c" },
+  { "directory": "/project", "command": "gcc -Wall -Wextra -std=c99 -pedantic -D_POSIX_C_SOURCE=200809L -I. server/net_utils.c -c -o server/net_utils.o", "file": "server/net_utils.c" },
+  { "directory": "/project", "command": "gcc -Wall -Wextra -std=c99 -pedantic -D_POSIX_C_SOURCE=200809L -I. server/bucket.c -c -o server/bucket.o", "file": "server/bucket.c" },
+  { "directory": "/project", "command": "gcc -Wall -Wextra -std=c99 -pedantic -D_POSIX_C_SOURCE=200809L -I. server/directory.c -c -o server/directory.o", "file": "server/directory.c" },
+  { "directory": "/project", "command": "gcc -Wall -Wextra -std=c99 -pedantic -D_POSIX_C_SOURCE=200809L -I. server/free_space.c -c -o server/free_space.o", "file": "server/free_space.c" },
+  { "directory": "/project", "command": "gcc -Wall -Wextra -std=c99 -pedantic -D_POSIX_C_SOURCE=200809L -I. server/dispatcher.c -c -o server/dispatcher.o", "file": "server/dispatcher.c" },
+  { "directory": "/project", "command": "gcc -Wall -Wextra -std=c99 -pedantic -D_POSIX_C_SOURCE=200809L -I. server/handle_ls.c -c -o server/handle_ls.o", "file": "server/handle_ls.c" },
+  { "directory": "/project", "command": "gcc -Wall -Wextra -std=c99 -pedantic -D_POSIX_C_SOURCE=200809L -I. server/handle_mb.c -c -o server/handle_mb.o", "file": "server/handle_mb.c" },
+  { "directory": "/project", "command": "gcc -Wall -Wextra -std=c99 -pedantic -D_POSIX_C_SOURCE=200809L -I. server/handle_cp_put.c -c -o server/handle_cp_put.o", "file": "server/handle_cp_put.c" },
+  { "directory": "/project", "command": "gcc -Wall -Wextra -std=c99 -pedantic -D_POSIX_C_SOURCE=200809L -I. server/handle_cp_get.c -c -o server/handle_cp_get.o", "file": "server/handle_cp_get.c" },
+  { "directory": "/project", "command": "gcc -Wall -Wextra -std=c99 -pedantic -D_POSIX_C_SOURCE=200809L -I. server/handle_cp_cp.c -c -o server/handle_cp_cp.o", "file": "server/handle_cp_cp.c" },
+  { "directory": "/project", "command": "gcc -Wall -Wextra -std=c99 -pedantic -D_POSIX_C_SOURCE=200809L -I. server/handle_rm.c -c -o server/handle_rm.o", "file": "server/handle_rm.c" },
+  { "directory": "/project", "command": "gcc -Wall -Wextra -std=c99 -pedantic -D_POSIX_C_SOURCE=200809L -I. server/handle_rb.c -c -o server/handle_rb.o", "file": "server/handle_rb.c" },
+  { "directory": "/project", "command": "gcc -Wall -Wextra -std=c99 -pedantic -D_POSIX_C_SOURCE=200809L -I. client/main.c -c -o client/main.o", "file": "client/main.c" },
+  { "directory": "/project", "command": "gcc -Wall -Wextra -std=c99 -pedantic -D_POSIX_C_SOURCE=200809L -I. client/net.c -c -o client/net.o", "file": "client/net.c" },
+  { "directory": "/project", "command": "gcc -Wall -Wextra -std=c99 -pedantic -D_POSIX_C_SOURCE=200809L -I. client/cli.c -c -o client/cli.o", "file": "client/cli.c" },
+  { "directory": "/project", "command": "gcc -Wall -Wextra -std=c99 -pedantic -D_POSIX_C_SOURCE=200809L -I. client/ops.c -c -o client/ops.o", "file": "client/ops.c" }
+]
